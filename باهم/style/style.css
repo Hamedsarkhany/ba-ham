@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'iranyekan';
+    src:url('../font/Qs_Iranyekanmedium.ttf') format('truetype');
+        
+}
+* {
+    margin: 0px;
+    padding: 0px; 
+     
+}
+body{
+    background-color:  #F5F5F5;
+    margin-top: 44px;
+}
+img {
+    padding-left: 10px;
+}
+aside>div>img:nth-child(1) {
+    padding: 1% 12%;
+
+}
+aside>div>img:nth-child(2) {
+    padding: 0% 10%;
+    margin: 11% 0;
+}
+ul,li {
+    list-style: none;
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+li {
+    margin: 0px 0px;
+    padding: 17px 7px;
+    border-radius: 9px;
+    width: 100%;
+    
+}
+li:hover {
+    background-color: #cfd2e8;
+}
+a {
+    text-decoration: none;
+    color: #4f4f77 !important;
+    font-family:iranyekan;
+}
+a:hover {
+    color: #4f4f77 !important;
+}
+.ma-dsh {
+    display: flex;
+    background-color:  #F5F5F5;
+    width: 100%;
+}
+.cold,.main-bar {
+    background-color: #ffffff;
+    border-radius: 29px;
+    padding-bottom: 1px;
+}
+.said-bar {
+    background-color:  #F5F5F5;
+}
+.hr {
+    border: 1px solid #AEAEAE;
+    width: 86%;
+    margin-top: 5em;
+    margin-right: 14px;
+}
+.list, .list-down {
+    margin-right: -12px;
+    padding-left: 21px;
+}
+.list-down {
+    margin-top: 12px;
+}
+@media only screen and (max-width: 1400px) {
+    aside>div>img:nth-child(1) {
+        padding: 1% 5%;
+    
+    }
+    aside>div>img:nth-child(2) {
+        padding: 0% 3%;
+        margin: 11% 0;
+    }
+    .list, .list-down {
+        margin-right: -25px;
+        padding-left: 0px;
+        margin-top: 10ox;
+    }
+   .list-out {
+        width: 98%;
+   }
+}
