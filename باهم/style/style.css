@@ -3,10 +3,13 @@
     src:url('../font/Qs_Iranyekanmedium.ttf') format('truetype');
         
 }
+@font-face {
+    font-family: 'iranyekanvbold';
+    src:url('../font/Qs_Iranyekanbold.ttf') format('truetype');    
+}
 * {
     margin: 0px;
-    padding: 0px; 
-     
+    padding: 0px;  
 }
 body{
     background-color:  #F5F5F5;
@@ -23,9 +26,14 @@ aside>div>img:nth-child(2) {
     padding: 0% 10%;
     margin: 11% 0;
 }
+h1{
+    font-family:iranyekanvbold;
+    font-size: 32px;
+    padding: 18px;
+    padding-right: 34px;
+}
 ul,li {
     list-style: none;
-    
 }
 ul{
     display: flex;
@@ -41,25 +49,36 @@ li {
     
 }
 li:hover {
-    background-color: #cfd2e8;
+    background-color: #e3e4e8;
 }
 a {
     text-decoration: none;
-    color: #4f4f77 !important;
+    color: #43436e !important;
     font-family:iranyekan;
 }
-a:hover {
-    color: #4f4f77 !important;
+/* قسمت دیاگرام  */
+section>div>div>span:nth-child(1){
+    font-family:iranyekan;
+    font-size: 16px;
 }
+section>div>div>span:nth-child(2){
+    font-family:iranyekanvbold;
+    font-size: 18px;
+}
+/* پایان دیاگرام  */
 .ma-dsh {
     display: flex;
     background-color:  #F5F5F5;
     width: 100%;
 }
-.cold,.main-bar {
+.cold {
     background-color: #ffffff;
     border-radius: 29px;
     padding-bottom: 1px;
+}
+.main-bar {
+    background-color: #F5F5F5;
+    border-radius: 15px;
 }
 .said-bar {
     background-color:  #F5F5F5;
@@ -76,6 +95,12 @@ a:hover {
 }
 .list-down {
     margin-top: 12px;
+}
+.disflex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-gap: 9px;
 }
 @media only screen and (max-width: 1400px) {
     aside>div>img:nth-child(1) {
